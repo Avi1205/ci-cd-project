@@ -9,7 +9,7 @@ pipeline {
     stage('Checkout') {
       steps {
         sh 'echo passed'
-        //git branch: 'main', url: 'https://github.com/Avi1205/ci-cd-project.git'
+        //git branch: 'master', url: 'https://github.com/Avi1205/ci-cd-project.git'
       }
     }
     stage('Build and Test') {
